@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(43, 54, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quizBox{
+    background-color: rgb(107, 123, 82);
+    height: 450px ;
+    width: 550px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.quizBox h1{
+    font-weight: 35px;
+    color: yellow;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
+
+.quizQuestion{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+}
+

@@ -1,0 +1,1 @@
+// watch hitesh video : gloval vs local scope

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black; color: lightcoral; font-size: 50px;">
+    
+<ul class="language">
+    <li>Javascript</li>
+</ul>
+
+
+</body>
+<script>
+
+        // adding a li to the ul 
+        function addLanguage(langName){
+            const li = document.createElement('li')
+            li.innerHTML = (`${langName}`)
+            document.querySelector(".language").appendChild(li)
+        }
+        addLanguage("Python")
+        addLanguage("React")
+
+
+        // adding a li to the ul in optimized way
+        function addOptiLanguage(langName){
+            const li = document.createElement('li')
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector(".language").appendChild(li)
+        }
+
+        addOptiLanguage("Angular")
+
+        // edit
+
+        const secondLang = document.querySelector("li:nth-child(2)")
+
+        const newLi = document.createElement('li')
+        newLi.textContent = "Html/css"
+
+        secondLang.replaceWith(newLi)
+
+
+        // remove
+        const lastLang = document.querySelector("li:last-child")
+
+        lastLang.remove()
+</script>
+</html>     

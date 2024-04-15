@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background: black; color: lightcoral;">
+    
+</body>
+
+<script>
+    const dive = document.createElement('div')
+    console.log(dive)
+
+    dive.className = "main"
+    dive.id = Math.round(Math.random()*10 + 1)
+
+    dive.setAttribute("title" , "DOM")
+    dive.style.backgroundColor = "green"
+    dive.style.padding = "12px"
+    dive.style.fontSize = "100px"
+    // div.innerText = "Welcome to the website"
+    const addText = document.createTextNode("Welcome to the website")
+    dive.appendChild(addText)
+    document.body.appendChild(dive)
+</script>
+</html>

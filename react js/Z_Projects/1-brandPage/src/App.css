@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 10px auto;
+  height: 50px;
+  overflow: hidden;
+  /* background-color: orange; */
+  user-select: none;
+}
+
+nav img {
+  height: 60px;
+  width: 60px;
+  flex-shrink: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
+
+button {
+  all: unset;
+  background-color: red;
+
+  padding: 6px 16px;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero {
+  display: flex;
+  max-width: 1000px;
+  margin: 10px auto;
+  align-items: center;
+  /* margin-top: 60px; */
+}
+.hero h1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 70px;
+  margin-top: 40px;
+}
+.hero p {
+  font-weight: 400;
+  /* margin-top: 15px; */
+  max-width: 600px;
+  font-size: 20px;
+  color: rgb(75, 71, 71);
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+  /* margin-top: 15px; */
+}
+.hero-btn button{
+  font-size: 18px;
+}
+.hero-btn .secondary-btn {
+  background: transparent;
+  color: gray;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+
+.shopping p{
+  font-weight: 700;
+}
+.images{
+  display: flex;
+  gap: 10px;
+  
+}
+.images img{
+  
+  height: 40px;
+  width: 40px;
+  
+}
+
+.hero-image img{
+  height: 300px;
+  width: 300px;
+}
+

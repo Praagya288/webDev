@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background-color:black ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative ;
+}
+
+.clock{
+    background-color: white;
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    user-select: none;
+}
+
+span{
+    display: inline;
+    position: relative; 
+    font-size: 80px;
+    text-align: center;
+    width: 100px;
+}
+
+span::after{
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#hrs::after{
+    content: "Hours ";
+}
+#mins::after{
+    content: "Minutes"; 
+}
+#seconds::after{
+    content: "Seconds";
+}
