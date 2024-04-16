@@ -1,13 +1,13 @@
+
+import nikeLogo from "../assets/images/nikeLogo.png"
+
 function Navigation(){
-
-
     return(
-
         <nav >
 
         {/* left nikeLogo image  */}
         <div className="nikeLogo">
-          <img src="../images/nikeLogo.png" alt="Nike logo" />
+          <img src={nikeLogo} alt="Nike logo" />
         </div>
 
         {/* middle menu */}

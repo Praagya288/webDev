@@ -19,5 +19,9 @@ nav img{
 
 } 
 
-/* the tag */
-/* code  */
+/* .main_container{
+  display: flex;
+  height: calc(100vh - 150px) ;
+  flex-direction: column;
+  justify-content: end;
+} */

@@ -12,13 +12,14 @@
 .contact_form {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 12px;
 }
 
 .contact_form form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
+  
 }
 
 .form_control {
@@ -26,19 +27,36 @@
   flex-direction: column;
   width: 100%;
 }
+.form_control textarea{
+  padding: 0 8px;
+}
 
 .form_control input {
   height: 40px;
   padding: 0 8px;
 }
 
-.form_control label{
+/* .form_control label{
   position: absolute;
   top: 340px;
   left: 110px;
   background-color: white;
   padding: 0 10px;
   font-weight: 600;
-  /* font-size: 14px; */
+} */
+
+
+.contact_image img{
+height: 400px;
+width: 400px;
+margin-left: 150px;
 }
+
+/* .right_image{
+  height: 400px;
+  width: 400px;
+} */
+
+
+
 
