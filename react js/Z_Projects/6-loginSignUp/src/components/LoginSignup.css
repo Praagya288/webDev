@@ -1,0 +1,97 @@
+/* LoginSignup.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px; /* Adjusted margin */
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: violet;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background-color: violet;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* width: 480px; */ /* Removed fixed width */
+    height: 80px;
+    background: white;
+    border: 6px;
+}
+
+.input img {
+    margin: 0 20px; /* Adjusted margin */
+}
+
+.input input {
+    height: 50px;
+    /* width: 400px; */ /* Removed fixed width */
+    flex: 1; /* Allow input to grow */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: grey;
+    font-size: 19px;
+}
+
+.forgotPassword {
+    padding-left: 10%; /* Adjusted padding */
+    margin-top: 27px;
+    color: grey;
+    font-size: 18px;
+}
+
+.forgotPassword span {
+    color: purple;
+    cursor: pointer;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: center; /* Adjusted alignment */
+    gap: 30px;
+    margin-top: 40px; /* Adjusted margin */
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
