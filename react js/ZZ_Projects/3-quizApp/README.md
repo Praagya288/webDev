@@ -1,8 +1,11 @@
-# React + Vite
+problem
+when i click on the correct option so the option shoud turn green and if i click
+on the wrong option then it should turn red also the correct option should also gets 
+highlighted and then we can click on the next button
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+now the problem is when using external css i was able to apply this thing but in tailwind 
+i am not able to solve this.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+so for now i have changed the functionality of the quizApp
