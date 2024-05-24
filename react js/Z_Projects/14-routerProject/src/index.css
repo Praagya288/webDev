@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
-  background-color: black;
-}
-
-
-.active{
-  color: aqua;
+    background-color: rgb(84, 81, 81);
 }

@@ -3,33 +3,22 @@ import { FcLikePlaceholder } from "react-icons/fc";
 import { FcLike } from "react-icons/fc";
 import { Toaster , toast } from "sonner";
 
-
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-
-
 const Card = ({ id, category, title, image, description }) => {
   const [fav, setFav] = useState(false);
 
-
-  // function to change the icon AND HANDLE THE TOAST
-  const handleFavs = () => {
+  // function to handle like , toaster
+const handleFavs = () => {
     setFav(!fav);
     toaster(!fav)
   };
-
 const toaster = (val)=>{
-  
   if(val){
     toast("course added")
   }
   else{
     toast("coursr removed")
   }
-
 }
-
-  
 
   return (
     <div className=" relative flex flex-col h-72 w-72  rounded-md bg-blue-900 gap-2 overflow-hidden">
@@ -40,7 +29,8 @@ const toaster = (val)=>{
       </h2>
 
       <div className=" bg-white rounded-full w-9 h-9   flex items-center justify-center absolute  text-3xl top-28 right-3">
-        <button onClick={handleFavs}>
+        <button 
+        onClick={handleFavs}>
           {fav ? <FcLike /> : <FcLikePlaceholder />}
         </button>
       </div>

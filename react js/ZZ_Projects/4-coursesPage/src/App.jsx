@@ -4,8 +4,6 @@ import Buttons from "./components/Buttons";
 import Info from "./components/Info";
 import data from "./assets/data.js";
 
-
-
 function App() {
   const [content, setContent] = useState(data);
 
