@@ -21,6 +21,9 @@ function App() {
 
 function Count({setCount}){
   return <div>
+    {
+    console.log("Count Component - This component does not uses count variable but still gets re-rendered everytime you increase/decrease the count so this is the drawback of context api")
+    }
     <CountRenderer />
   <Buttons setCount={setCount}  />
   </div>
