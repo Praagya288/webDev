@@ -2,13 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    
-    <div>
-    
-   Home page
-
-
-    </div>
+    <div>This is the home page or landing page</div>
   )
 }
 
