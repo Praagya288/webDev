@@ -4,7 +4,5 @@
 
 3- Context api - This makes the codes look cleaner compared to prop drilling but   does not optimize the code.
 
-4- 
-
-
+4- Redux -  more advanced ie better than context api
 

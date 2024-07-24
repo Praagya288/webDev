@@ -9,6 +9,8 @@ const Profile = () => {
         return <div>
             Welcome{user.username} 
             
+
+            user
         </div>
 
 }
